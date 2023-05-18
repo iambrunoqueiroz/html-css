@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens flexíveis</title>
+</head>
+<body>
+    <h1>Inserindo uma imagem flexível no seu site.</h1>
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+            <img src="imagens/foto-g.png" alt="A imagem flexível funciona">
+        </picture>
+    <h1>Inserindo áudio no seu site.</h1>
+        <audio preload="metadata" controls autoplay loop>
+            <source src="midia/guanacast-33.mp3" type="audio/mp3">
+            <source src="midia/guanacast-33.ogg" type="audio/mp3">
+            <source src="midia/guanacast-33.wav" type="audio/mp3">
+            <p><a href="midia/guanacast-33.mp3" download="guanacast-33.mp3" type="audio/mpeg" target="_blank">Seu navegador não suporta áudio. Click para download.</a></p>
+        </audio>
+    <h1>Inserindo vídeo no seu site.</h1>
+        
+</body>
+</html>
