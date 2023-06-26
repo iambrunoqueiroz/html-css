@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabela Responsiva</title>
+    <title>Site de Teste</title>
     <style>
-                body {
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+        }
+
+        body {
             font-family: Arial, Helvetica, sans-serif;
         }
 
         table {
             border-collapse: collapse;
-            padding: 10px;
+            padding: 1px;
         }
 
         caption {
@@ -29,14 +34,16 @@
             background-color: whitesmoke;
         }
 
-        div#container {
+        tr:nth-child(odds) {
+            background-color: lightgray;
+        }
+
+        div.container {
             overflow-y: auto;
         }
     </style>
 </head>
 <body>
-    <h1>Tabelas em telas pequenas</h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat magni, corrupti nam vel neque fugiat ipsa enim suscipit, error deleniti temporibus tempore cum ad odit porro maiores numquam. Necessitatibus, beatae.</p>
     <div id="container">
         <table>
             <caption>Tabelas responsivas</caption>
@@ -166,6 +173,5 @@
             </tbody>
         </table>
     </div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptatibus temporibus nemo repellat sunt dignissimos! Magni inventore asperiores nulla reiciendis maiores, nihil mollitia alias, nesciunt, unde ad est eum optio?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, iusto aut possimus aliquid molestias, sequi soluta sapiente animi recusandae unde, perspiciatis assumenda et autem velit impedit nulla commodi distinctio sint?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem perferendis culpa molestias ratione sit exercitationem pariatur tenetur iusto quos obcaecati, ea quis deleniti, dignissimos officia deserunt a numquam earum neque?</p>
 </body>
 </html>
